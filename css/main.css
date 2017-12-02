@@ -48,7 +48,7 @@ img{
 }
 @media(max-width: 768px){
     .navbar-brand.h1{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 }
 .navbar-brand > span{
@@ -91,10 +91,10 @@ img{
 }
 @media(max-width: 768px){
     .hero-caption h1{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .hero-caption h3{
-        font-size: 5rem;
+        font-size: 1.2rem;
     }
 }
 .hero-caption h3{
@@ -116,6 +116,14 @@ img{
     position: relative;
     margin-bottom: 50px;
     cursor: pointer;
+}
+@media(max-width: 768px){
+    #hero .first{
+        font-size: 1.2rem;
+    }
+     #hero .sec{
+        font-size: 1.2rem;
+    }
 }
 #hero .first:hover{
     background: #6b8f00!important;
@@ -163,10 +171,10 @@ img{
 }
 @media(max-width: 768px){
     .h2{
-       font-size: 5rem;
+       font-size: 3rem;
     }
     p{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 /*-- servicos---*/
@@ -193,7 +201,7 @@ img{
 }
 @media(max-width: 768px){
     .servicos h3{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -215,7 +223,7 @@ img{
 }
 @media(max-width: 768px){
     .parallax-inner h2{
-        font-size: 5rem;
+        font-size: 2rem;
     }
 }
 /*--Feature work--*/
@@ -232,6 +240,11 @@ img{
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+@media(max-width: 768px){
+        .feature-work ul li{
+        font-size: 1.3rem;
+    }
 }
 
 .feature-work ul li.active,
@@ -273,6 +286,12 @@ img{
     font-size: 1.6rem;
     margin-top: 10px;
 }
+@media(max-width: 768px){
+       .address li{
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+}
 .address i{
     color: #aac94c;
     margin-right: 5px;
@@ -293,6 +312,11 @@ img{
     border: 1px solid #aac94c;
     font-size: 4rem;
 }
+@media(max-width: 768px){
+       .social i{
+        font-size: 2rem;
+    }
+}
 footer{
     background: #303819;
     overflow: hidden;
@@ -303,7 +327,7 @@ footer p{
 }
 @media(max-width: 768px){
     .address li{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .social li{
         margin: 20px 10px;
