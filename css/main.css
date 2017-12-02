@@ -1,0 +1,331 @@
+
+html,
+body{
+    color: #536d76;
+    font-family: 'Lato', sans-serif!important;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.7;
+    display: block;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+/*--- Navigation ---*/
+.top-nav-collapse{
+    background-color: #303819;
+}
+.navbar .collapse .navbar-nav li{
+    margin-left: 20px;
+}
+.navbar .collapse .navbar-nav .nav-item a{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+#navbarNav .nav-link.active {
+    color: #aac94c;
+}
+
+.navbar-brand.h1{
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #cccccc;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 1px;
+}
+@media(max-width: 768px){
+    .navbar-brand.h1{
+        font-size: 4rem;
+    }
+}
+.navbar-brand > span{
+    color: #aac94c;
+}
+
+/*--Hero--*/
+#hero{
+    background: url('../img/annie_banner.jpg')center center no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#hero .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 2;
+}
+.hero-caption{
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-caption h1{
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+@media(max-width: 768px){
+    .hero-caption h1{
+        font-size: 1.7rem;
+    }
+    .hero-caption h3{
+        font-size: 5rem;
+    }
+}
+.hero-caption h3{
+    font-size: 2rem;
+    color: #cccccc;
+    letter-spacing: 3px;
+    z-index: 3;
+    position: relative;
+    margin: 20px 0;
+}
+#hero .first{
+    font-size: 1.7rem;
+    border: 1px solid #aac94c;
+    color: #fff;
+    background: #78A100;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 3;
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#hero .first:hover{
+    background: #6b8f00!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#hero .sec{
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 3;
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#hero .sec:hover{
+   color: #bfbfbf!important;
+   background-color: transparent!important;
+   -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+/*-- About me---*/
+.about{
+    padding: 100px 0;
+    background: #757b66;
+    color: #fff;
+}
+.h2{
+   font-family: 'Great Vibes', cursive;
+   font-size: 7rem;
+   font-weight: 590;
+   letter-spacing: 1px;
+   
+}
+@media(max-width: 768px){
+    .h2{
+       font-size: 5rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+}
+/*-- servicos---*/
+.servicos{
+    padding: 100px 0;
+}
+
+.servicetop{
+    margin-top: 50px;
+}
+.servicos img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.servicos h3{
+    padding: 20px 0 10px 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.7rem;
+    font-weight: 580;
+    letter-spacing: 1px;
+}
+@media(max-width: 768px){
+    .servicos h3{
+        font-size: 3rem;
+    }
+}
+
+/*--- Parallax----*/
+.parallax{
+    background: url(../img/paralex-img.png) no-repeat fixed 100%;
+    background-size: cover;
+    text-align: center;
+}
+.parallax-inner{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.parallax-inner h2{
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    font-size: 9rem;
+    letter-spacing: 1px;
+}
+@media(max-width: 768px){
+    .parallax-inner h2{
+        font-size: 5rem;
+    }
+}
+/*--Feature work--*/
+.feature-work{
+    padding-top: 100px;
+}
+.feature-work ul li{
+    font-size: 1.6rem;
+    border: 2px solid #cccccc;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.feature-work ul li.active,
+.feature-work ul li:hover{
+     background: #aac94c;
+     border: 2px solid #aac94c;
+     color: #fff;
+}
+.feature-work ul{
+    margin: 40px 0 20px 0;
+}
+.feature-work ul li:hover{
+    cursor: pointer;
+}
+
+.feature-work .shuffle-imgs{
+    margin-top: 20px;
+}
+.feature-work .shuffle-imgs .row{
+    margin: 0;
+}
+.feature-work .shuffle-imgs .row .col-md{
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}s
+.feature-work .row img{
+    width: 100%;
+}
+
+/*--contctos--*/
+.contactos{
+    padding: 80px 0;
+    background-color: #f2f2f2;
+}
+.address li{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+.address i{
+    color: #aac94c;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.social li{
+    display: inline-block;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+.social i{
+    color: #fff;
+    background: #aac94c;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid #aac94c;
+    font-size: 4rem;
+}
+footer{
+    background: #303819;
+    overflow: hidden;
+    color: #cccccc;
+}
+footer p{
+    padding: 10px 0;
+}
+@media(max-width: 768px){
+    .address li{
+        font-size: 1.4rem;
+    }
+    .social li{
+        margin: 20px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
