@@ -33,6 +33,9 @@ img{
     font-size: 1.7rem;
     font-weight: 400;
 }
+#navbarNav {
+    white-space: nowrap;
+}
 #navbarNav .nav-link.active {
     color: #aac94c;
 }
